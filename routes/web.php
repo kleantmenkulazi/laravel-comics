@@ -39,7 +39,7 @@ Route::get('/', function () {
     */
     // dd(compact('firstName', 'lastName'));
 
-    return view('welcome', [
+    return view('subpages.about', [
         'firstName' => $firstName,
         'lastName' => $lastName,
     ]);
